@@ -14,7 +14,7 @@ Luego la instalación se procede de manera normal
 
 ### ScreenShots
 
-![N|Screen](https://github.com/SergioRibera/ScreenRecorderCrossPlatform/blob/master/build/Screenshot.png)
+![N|Screen](https://github.com/SergioRibera/ScreenRecorderCrossPlatform/blob/main/build/Screenshot.png)
 
 Cualquier bug o problema porfavor reportar a contact@sergioribera.com
 
