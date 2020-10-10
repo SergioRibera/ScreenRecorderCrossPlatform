@@ -1,0 +1,45 @@
+{
+  "name": "screen-recorder",
+  "displayName": "Screen Recorder by SergioRibera",
+  "version": "1.0.4",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist-w": "electron-builder --windows",
+    "dist-l": "electron-builder --linux"
+  },
+  "homepage": "https://github.com/SergioRibera",
+  "author": {
+    "name": "SergioRibera",
+    "email": "contact@sergioribera.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.1",
+    "electron-builder": "^22.8.0",
+    "electron-reload": "^1.5.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "keywords": [],
+  "build": {
+    "appId": "screen-recorder-sergioribera",
+    "asar": true,
+    "linux": {
+      "target": [
+        "pacman"
+      ],
+      "icon": "build/ScreenRecorderIcon.png"
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/ScreenRecorderIcon.ico"
+    }
+  }
+}
